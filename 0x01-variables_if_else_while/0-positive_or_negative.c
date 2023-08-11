@@ -3,8 +3,6 @@
 #include <time.h>
 
 /**
- * program will assign a random number to the variable
- *
  * main - print last digit in random number
  *
  * Description: print last digit in random number
