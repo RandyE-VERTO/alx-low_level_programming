@@ -1,0 +1,17 @@
+#include "main.h"
+
+/**
+ * print_alphabet - prints alphabets
+ * Description: Alphabets to be printed are in lowercase
+ * Return: 0 (successful execution)
+ */
+void print_alphabet(void)
+{
+	int y;
+
+	for (y = 97; i <= 122; i++)
+	{
+		_putchar(y);
+	}
+	_putchar('\n');
+}
