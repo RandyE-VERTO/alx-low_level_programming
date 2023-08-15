@@ -4,7 +4,8 @@
  *
  * @c: Characters in the ASCII code
  *
- * Description: This program returns 1 if c is a character irrespective of the case (loer or upper)
+ * Description: This program returns 1 if c is a character irrespective
+ * of the case (loer or upper)
  *and returns 0 if otherwise
 
  * Return: 1 if c is a character and 0 otherwise
