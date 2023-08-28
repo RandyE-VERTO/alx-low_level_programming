@@ -1,14 +1,10 @@
 #include "main.h"
-
 /**
- * _strchr - Locates a character in a string
- *
+ * _strchr - main file
  * @s: input
  * @c: input
- *
  * Return: 0
  */
-
 char *_strchr(char *s, char c)
 {
 	while (*s != '\0')
