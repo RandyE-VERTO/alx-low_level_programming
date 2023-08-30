@@ -6,7 +6,7 @@
  * @square: square integer
  * @x: integer
  *
- * Return: square root or -1 
+ * Return: square root or -1
  */
 
 int check_int(int square, int x)
