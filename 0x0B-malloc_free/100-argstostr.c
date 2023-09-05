@@ -32,7 +32,7 @@ char *argstostr(int ac, char **av)
 	{
 		for (y = 0; av[x][y]; y++)
 		{
-			oupt[z] = av[x][y];
+			outp[z] = av[x][y];
 			z++;
 		}
 		if (outp[z] == '\0')
@@ -41,4 +41,4 @@ char *argstostr(int ac, char **av)
 		}
 	}
 	return (outp);
-
+}
