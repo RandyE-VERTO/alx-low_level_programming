@@ -1,5 +1,3 @@
-2-str_concat.c
-
 #include "main.h"
 #include <stdlib.h>
 /**
