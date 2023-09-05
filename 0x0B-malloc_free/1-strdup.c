@@ -13,7 +13,7 @@
 char *_strdup(char *str)
 {
 	int length, i;
-	char *dup;
+	char *arr;
 
 	if (str == NULL)
 	{
@@ -27,15 +27,15 @@ char *_strdup(char *str)
 	}
 
 	arr = malloc(length * sizeof(char) + 1);
-	if (dup == NULL)
+	if (arr == NULL)
 		return (NULL);
 
 	for (i = 0; i < length; i++)
 	{
-		dup[i] = str[i];
+		arr[i] = str[i];
 	}
-	dup[i] = '\0';
+	arr[i] = '\0';
 
 
-	return (dup);
+	return (arr);
 }
