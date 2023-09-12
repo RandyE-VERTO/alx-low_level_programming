@@ -1,19 +1,15 @@
 #include <stdlib.h>
 #include "dog.h"
-
 /**
  * new_dog - creates a new dog
- *
  * @name: name of dog
  * @age: age of dog
  * @owner: owner of dog
- *
  * Return: pointer to a new dog
  */
-
 dog_t *new_dog(char *name, float age, char *owner)
 {
-	unsigned int nd, ow, i;
+	unsigned int nl, ol, i;
 	dog_t *dog;
 
 	if (name == NULL || owner == NULL)
@@ -21,22 +17,22 @@ dog_t *new_dog(char *name, float age, char *owner)
 	dog = malloc(sizeof(dog_t));
 	if (dog == NULL)
 		return (NULL);
-	for (nd = 0; name[nd]; nd++)
+	for (nl = 0; name[nl]; nl++)
 		;
-	nd++;
-	dog->name = malloc(nd * sizeof(char));
+	nl++;
+	dog->name = malloc(nl * sizeof(char));
 	if (dog->name == NULL)
 	{
 		free(dog);
 		return (NULL);
 	}
-	for (i = 0; i < nd; i++)
+	for (i = 0; i < nl; i++)
 		dog->name[i] = name[i];
 	dog->age = age;
-	for (ow = 0; owner[ow]; ow++)
+	for (ol = 0; owner[ol]; ol++)
 		;
-	ow++;
-	dog->owner = malloc(ow * sizeof(char));
+	ol++;
+	dog->owner = malloc(ol * sizeof(char));
 	if (dog->owner == NULL)
 	{
 		free(dog->name);
