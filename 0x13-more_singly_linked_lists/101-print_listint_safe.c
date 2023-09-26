@@ -2,10 +2,12 @@
 
 /**
  * free_listp - frees a linked list
- * @head: head of a list.
  *
- * Return: no return.
+ * @head: head of the linked list.
+ *
+ * Return: void
  */
+
 void free_listp(listp_t **head)
 {
 	listp_t *temp;
