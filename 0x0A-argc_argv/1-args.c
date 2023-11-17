@@ -5,9 +5,9 @@
  * main - prints the number of arguments passed to it
  *
  * @argc: argument count
- * @argv: arguments
+ * @argv: arguments array
  *
- * Return: 0
+ * Return: 0 for succes
  */
 
 int main(int argc, char *argv[])
