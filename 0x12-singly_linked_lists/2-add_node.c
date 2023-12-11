@@ -49,9 +49,9 @@ int len(const char *str)
 	if (str == NULL)
 		return (0);
 
-	a = 0; 
+	a = 0;
 	while (str[a] != '\0')
-	{       
+	{
 		a++;
 	}
 	return (a);
