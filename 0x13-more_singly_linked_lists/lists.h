@@ -5,7 +5,7 @@
 #include <stdlib.h>
 
 /**
- * struct listit_s - struct for creating nodes
+ * struct listint_s - struct for creating nodes
  * of a singly linked list
  *
  * @n: integer data
